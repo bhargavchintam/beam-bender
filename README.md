@@ -4,7 +4,7 @@ A minimalist 3D grid puzzle built with **Panda3D**. Rotate the mirrors so the
 emitter's beam reflects across the board and lights **every** target. The beam
 re-traces instantly as you turn a mirror.
 
-![board](media/beam_bender.png)
+![gameplay](media/beam_bender_gameplay.gif)
 
 ## Features
 - Deterministic beam tracing across a grid, reflecting off `/` and `\` mirrors.
