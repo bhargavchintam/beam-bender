@@ -27,6 +27,16 @@ python beam_bender.py
 **Self-contained** — it uses only shapes/models that ship with Panda3D, so there
 are no external assets to download.
 
+## Tests
+```bash
+pip install -r requirements.txt
+python -m pytest
+```
+
 ## Tech
 Panda3D · procedural board geometry · `LineSegs` beam rendering · grid-based
 reflection logic.
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md), including how to add a level. CI runs the
+tests and a short start-up check of the game on every push and pull request.
